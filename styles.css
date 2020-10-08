@@ -104,6 +104,7 @@ body > nav > h6:hover {
   margin: 40px;
 }
 .about__me {
+  color: black;
   margin-left: 40px;
   text-align: left;
 }
@@ -114,13 +115,11 @@ body > nav > h6:hover {
 .about__me > p {
   padding: 5px;
   font-size: 16px;
-  color: black;
 }
 .about__me > h6 {
   align-items: right;
   margin-left: 500px;
   font-size: 12px;
-  color: black;
   margin-top: 10px;
 }
 
