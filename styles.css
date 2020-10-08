@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: vborder-box;
+}
+body {
+  background: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body > nav {
+  margin: 0;
+  display: block;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  position: fixed;
+  padding: 10px;
+  background-color: black;
+  font-size: 20px;
+}
+body > nav > h6:hover {
+  transition: 200ms;
+  color: blue;
+  cursor: pointer;
+}
+
+.home > h1 {
+  text-align: left;
+  color: black;
+  margin: 5px;
+  padding: 20px;
+  margin-left: 100px;
+  font-size: 64px;
+}
+.home > ul {
+  display: flex;
+  margin-left: 250px;
+  justify-items: auto;
+}
+
+.icons {
+  padding: 10px;
+  margin-top: 20px;
+  height: 30px;
+  width: 40px;
+  object-fit: contain;
+}
+
+.home > h2 {
+  text-align: left;
+  object-fit: contain;
+  color: black;
+  margin-top: 10px;
+  font-size: 24px;
+  margin-left: 250px;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  object-fit: contain;
+  margin: 40px;
+}
+.about__me {
+  margin-left: 40px;
+  text-align: left;
+}
+.about__me > h1 {
+  padding: 20px;
+  font-size: 30px;
+}
+.about__me > p {
+  padding: 5px;
+  font-size: 16px;
+  color: grey;
+}
+
+.about > img {
+  padding: 10px;
+  margin-top: 20px;
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+.download {
+  padding: 10px;
+  height: 50px;
+  width: 200px;
+  margin-top: 150px;
+  transition: 200ms;
+  justify-content: left;
+  background-color: grey;
+  color: white;
+  border-radius: 5%;
+}
+
+.download:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
