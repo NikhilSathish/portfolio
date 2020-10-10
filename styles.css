@@ -20,14 +20,14 @@ body > nav {
   background-color: black;
   font-size: 20px;
 }
-
-body > nav > a{
-  display: none;
+body > nav > h6 > a {
+  text-decoration: none;
+  color: white;
   transition: 200ms;
-  color: lightblue;
-  cursor: pointer;
 }
-body > nav > h6:hover {
+
+body > nav > h6 > a:hover {
+  text-decoration: none;
   transition: 200ms;
   color: lightblue;
   cursor: pointer;
@@ -42,6 +42,7 @@ body > nav > h6:hover {
   font-size: 64px;
 }
 .home > ul {
+  list-style-type: none;
   display: flex;
   margin-left: 250px;
   justify-items: auto;
