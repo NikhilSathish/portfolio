@@ -171,6 +171,7 @@ body > nav > h6 > a:hover {
 }
 .works {
   margin: 30px;
+  margin-bottom: 100px;
 }
 .works > h1 {
   margin: 20px;
@@ -224,10 +225,14 @@ body > nav > h6 > a:hover {
   width: 100px;
   object-fit: cover;
 }
-.contact {
-  background-color: white;
-  color: black;
+.aboutWorksOverlay > p {
+  text-decoration: none;
+  color: white;
+  margin-top: 50px;
 }
-.contact > h1 {
-  margin: 20px;
+.worksImage > p {
+  text-decoration: none;
+  color: white;
+  margin-top: 30px;
+  margin-left: 50px;
 }
