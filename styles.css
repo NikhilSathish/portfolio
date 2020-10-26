@@ -147,9 +147,9 @@ body > nav > h6 > a:hover {
   margin-bottom: 50px;
 }
 .skillSetComputing > img {
-  height: 500px;
-  width: 500px;
-  margin-right: 80px;
+  height: 450px;
+  width: 350px;
+  margin-right: 20px;
 }
 .skillSetManagement {
   margin-top: 20px;
@@ -157,8 +157,17 @@ body > nav > h6 > a:hover {
 }
 .skillSetManagement > img {
   height: 450px;
-  width: 450px;
-  margin-right: 40px;
+  width: 350px;
+  margin-right: 20px;
+}
+.skillSetSoftwares {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.skillSetSoftwares > img {
+  height: 450px;
+  width: 350px;
+  margin-right: 20px;
 }
 .works {
   margin: 30px;
