@@ -11,7 +11,6 @@ body {
 }
 body > nav {
   margin: 0;
-  display: block;
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -45,7 +44,6 @@ body > nav > h6 > a:hover {
   list-style-type: none;
   display: flex;
   margin-left: 250px;
-  justify-items: auto;
 }
 
 .icons {
@@ -130,4 +128,94 @@ body > nav > h6 > a:hover {
   background-color: black;
   color: white;
   cursor: pointer;
+}
+
+.skills {
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+.skills > p {
+  font-size: 12px;
+}
+.skills > ul {
+  margin-left: 100px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+.skills > ul > li {
+  height: 80px;
+  width: 120px;
+  align-content: center;
+  border: 1px;
+  color: black;
+  border: 1px solid white;
+}
+.skillSet {
+  height: 80px;
+  width: 120px;
+  align-content: center;
+  border: 1px;
+  color: black;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+}
+.skillSetPercentage {
+  top: 100%;
+  position: relative;
+  transition: all 0.3s ease-out;
+  background: black;
+  color: white;
+  height: 100%;
+}
+.skillSet:hover > .skillSetPercentage {
+  top: 0;
+}
+.skillSetManagement {
+  height: 90px;
+  width: 150px;
+  align-content: center;
+  border: 1px;
+  color: black;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: grey;
+  color: white;
+}
+.skillSetPercentageManagement {
+  top: 100%;
+  position: relative;
+  transition: all 0.3s ease-out;
+  background: grey;
+  color: white;
+  height: 100%;
+}
+.skillSetManagement:hover > .skillSetPercentageManagement {
+  top: 0;
+}
+.works > ul {
+  margin-top: 50px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+.works {
+  margin-top: 20px;
+}
+
+.clone {
+  height: 200px;
+  width: 250px;
+}
+.aboutWorks {
+  height: 80px;
+  width: 250px;
+  text-decoration: none;
+  color: white;
 }
