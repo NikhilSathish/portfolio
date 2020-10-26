@@ -205,8 +205,8 @@ body > nav > h6 > a:hover {
   color: white;
   font-size: 20px;
   position: absolute;
-  top: 50%;
-  left: 20%;
+  top: 70%;
+  left: 40%;
   -webkit-transform: translate(-100%, -100%);
   -ms-transform: translate(-100%, -100%);
   transform: translate(-50%, -50%);
