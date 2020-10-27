@@ -236,3 +236,37 @@ body > nav > h6 > a:hover {
   margin-top: 30px;
   margin-left: 50px;
 }
+.testimonials {
+  background-color: white;
+  color: black;
+}
+.testimonials > h1 {
+  padding: 20px;
+}
+.testimonialsPictures {
+  margin-top: 30px;
+  display: flex;
+  margin-left: 150px;
+}
+.testimonialsPictures > a > p {
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.finllect {
+  margin-left: 50px;
+  height: 400px;
+  width: 350px;
+  border: 2px solid black;
+  margin-bottom: 100px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+.footer > p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
