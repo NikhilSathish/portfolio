@@ -74,7 +74,7 @@ body > nav > h6 > a:hover {
   text-align: left;
 }
 .about__me > h1 {
-  padding: 20px;
+  padding: 20px 20px 20px 0px;
   font-size: 25px;
 }
 .about__me > p {
